@@ -53,11 +53,11 @@ if(adressdata[i].id == g){
         var divadrssstret = document.createElement('div')
         divadrssstret.innerHTML = "<b> Address: </b>" + adressdata[i].address.streetAddress;
         var divadrsscity = document.createElement('div')
-        divadrsscity.innerHTML = "<b> Address: </b>" + adressdata[i].address.city;
+        divadrsscity.innerHTML = "<b>  City: </b>" + adressdata[i].address.city;
         var divadrssstate = document.createElement('div')
-        divadrssstate.innerHTML = "<b> Address: </b>" + adressdata[i].address.state;
+        divadrssstate.innerHTML = "<b> State: </b>" + adressdata[i].address.state;
         var divadrsszip = document.createElement('div')
-        divadrsszip.innerHTML = "<b> Address: </b>" + adressdata[i].address.zip;
+        divadrsszip.innerHTML = "<b> Zip: </b>" + adressdata[i].address.zip;
         info_content.appendChild(div)
         info_content.appendChild(divdescription)
         info_content.appendChild(textarea)
